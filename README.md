@@ -1,7 +1,7 @@
 # Zeiss Coding Challenge: Data Science Position
 
-Maximilian Kapsecker <br>
-Challenge: Handling gaps in time series dataset from temperature readings for the development of anomaly detection algorithm
+_Author: Maximilian Kapsecker_ <br>
+_Challenge: Handling gaps in time series dataset from temperature readings for the development of anomaly detection algorithm_
 
 ## General Notes
 
