@@ -27,7 +27,7 @@ I would like to share some general notes on my approach to Data Science tasks an
 
 To reproduce the results of the analysis pipeline, follow these steps:
 
-1. Place the data into the ```./data/``` folder
+1. Place the data into the ```./data/``` folder. The file must have the name/format: ```sample_temperature_data_for_coding_challenge.csv```
 2. Ensure you have a Python 3.10 environment set up, e.g,
 ```
 conda create --name zeiss_challenge python=3.10
