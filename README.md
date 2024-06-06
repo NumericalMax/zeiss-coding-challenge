@@ -27,18 +27,22 @@ I would like to share some general notes on my approach to Data Science tasks an
 
 To reproduce the results of the analysis pipeline, follow these steps:
 
-1. Place your data into the ```./data/``` folder
-1. Ensure you have a Python 3.10 environment set up.
-Install the required dependencies:
+1. Place the data into the ```./data/``` folder
+2. Ensure you have a Python 3.10 environment set up, e.g,
+```
+conda create --name zeiss_challenge python=3.10
+conda activate zeiss_challenge
+```
+3. Install the required dependencies:
 ```
 pip install -r requirements.txt
 ```
-2. Launch Jupyter Lab:
+4. Launch Jupyter Lab:
 ```
 jupyter-lab
 ```
-3. Open the ```timeseries-analysis.ipynb``` notebook in Jupyter Lab.
-4. You can run the test by calling ```python -m unittest ./tests/test_helper.py```
+5. Open the ```timeseries-analysis.ipynb``` notebook in Jupyter Lab.
+6. Optional: You can run the unit testing by calling ```python -m unittest ./tests/test_helper.py```
 
 ## Open Tasks
 
