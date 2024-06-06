@@ -21,12 +21,13 @@ I would like to share some general notes on my approach to Data Science tasks an
 1. ```timeseries-analysis.ipynb```: contains the primary analysis of the data and is the main file for reviewing this work.
 2. ```src``` folder: contains supporting code files. These files help keep the notebook clean and manageable by offloading complex code.
 3. ```test``` folder: includes unittests for the implemented functions. **Caution**: not all functions have unittests due to time constraints.
+4. ```data``` folder: to place the source data.
 
 ## Install, Run and Test
 
 To reproduce the results of the analysis pipeline, follow these steps:
 
-1. Place your data into the 
+1. Place your data into the ```./data/``` folder
 1. Ensure you have a Python 3.10 environment set up.
 Install the required dependencies:
 ```
